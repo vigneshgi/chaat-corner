@@ -4,6 +4,7 @@ import Category from './components/Category'
 import Food from './components/Food'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Qr from './components/Qr'
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     <>
       <Navbar />
       <Hero />
+      <Qr />
       <Card />
       <Food />
       <Category />
