@@ -1,11 +1,15 @@
 import React from 'react';
 import StoresList from './storeList';
+import Example from './sametable';
+import CreateStore from './createStore';
 
 const EggMatrix = () => {
   
     return (
         <div>
-            <StoresList />
+            <CreateStore />
+            {/* <StoresList /> */}
+            <Example />
         </div>
     );
 };
