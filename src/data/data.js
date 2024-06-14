@@ -1,134 +1,199 @@
 export const data = [
   {
     id: 1,
-    name: 'Ceasar Salad',
-    category: 'salad',
+    name: 'Chicken Manchurian',
+    category: 'gravy',
     image:
-      '../../image/food/non panner.jpg',
-    price: '12',
+      '../../image/food/gravy_Chicken_Manchurian.jpg',
+    price: '130',
   },
   {
     id: 2,
-    name: 'Bacon Cheeseburger',
-    category: 'burger',
+    name: 'Mushroom Manchurian',
+    category: 'gravy',
     image:
-      '../../image/food/non panner.jpg',
-    price: '$',
+      '../../image/food/gravy_mushroom_manchurian.jpeg',
+    price: '100',
   },
   {
     id: 3,
-    name: 'Mushroom Burger',
-    category: 'burger',
+    name: 'Gobi Manchurian',
+    category: 'gravy',
     image:
-      '../../image/food/non panner.jpg',
-    price: '$$',
+      '../../image/food/gravy_gobi_manchurian.jpeg',
+    price: '100',
   },
   {
     id: 4,
-    name: 'Loaded Burger',
-    category: 'burger',
+    name: 'Panner Manchurian',
+    category: 'gravy',
     image:
-      '../../image/food/non panner.jpg',
-    price: '$$$',
+      '../../image/food/gravy_paneer_manchurian.jpg',
+    price: '100',
   },
   {
     id: 5,
-    name: 'Wings',
-    category: 'chicken',
+    name: 'Chicken Boneless',
+    category: 'dry',
     image:
-      '../../image/food/non panner.jpg',
-    price: '$$',
+      '../../image/food/dry_chicken_boneless.jpeg',
+    price: '120',
   },
   {
     id: 6,
-    name: 'Supreme Pizza',
-    category: 'pizza',
+    name: 'Mushroom 65',
+    category: 'dry',
     image:
-      '../../image/food/non panner.jpg',
-    price: '$$$',
+      '../../image/food/dry_mushroom_65.jpeg',
+    price: '90',
   },
   {
     id: 7,
-    name: 'Meat Lovers',
-    category: 'pizza',
+    name: 'Gobi 65',
+    category: 'dry',
     image:
-      '../../image/food/non panner.jpg',
-    price: '$$$$',
+      '../../image/food/dry_gopi_65.jpeg',
+    price: '90',
   },
   {
     id: 8,
-    name: 'Chicken Tenders',
-    category: 'chicken',
+    name: 'Panner 65',
+    category: 'dry',
     image:
-      '../../image/food/non panner.jpg',
-    price: '$',
-  },
-  {
-    id: 9,
-    name: 'Kale Salad',
-    category: 'salad',
-    image:
-      '../../image/food/non panner.jpg',
-    price: '$$',
-  },
-  {
-    id: 10,
-    name: 'Double Cheeseburger',
-    category: 'burger',
-    image:
-      '../../image/food/non panner.jpg',
-    price: '$$$$',
+      '../../image/food/dry_panner_65.jpg',
+    price: '100',
   },
   {
     id: 11,
-    name: 'Chicken Kabob',
-    category: 'chicken',
+    name: 'Chicken Rice/Noodles',
+    category: 'rice',
     image:
-      '../../image/food/non panner.jpg',
-    price: '$$$',
+      '../../image/food/rice_chickenrice.jpg',
+    price: '110',
   },
   {
     id: 12,
-    name: 'Fruit Salad',
-    category: 'salad',
+    name: 'Mushroom Rice/Noodles',
+    category: 'rice',
     image:
-      '../../image/food/non panner.jpg',
-    price: '$',
+      '../../image/food/rice_Mushroom_Noodles_3.jpg',
+    price: '110',
   },
   {
     id: 13,
-    name: 'Feta & Spinnach',
-    category: 'pizza',
+    name: 'Panner Rice/Noodles',
+    category: 'rice',
     image:
-      '../../image/food/non panner.jpg',
-    price: '$$',
+      '../../image/food/rice_pannerrice.jpeg',
+    price: '110',
   },
   {
     id: 14,
-    name: 'Baked Chicken',
-    category: 'chicken',
+    name: 'Egg Rice/Noodles',
+    category: 'rice',
     image:
-      '../../image/food/non panner.jpg',
-    price: '$$$$',
+      '../../image/food/rice_egg-noodles.jpg',
+    price: '100',
   },
   {
     id: 15,
-    name: 'Cheese Pizza',
-    category: 'pizza',
+    name: 'Veg Rice/Noodles',
+    category: 'rice',
     image:
       '../../image/food/non panner.jpg',
-    price: '$',
+    price: '90',
 
   },
   {
     id: 16,
-    name: 'Loaded Salad',
-    category: 'salad',
+    name: 'Schezwan Rice/Noodles',
+    category: 'rice',
     image:
-      '../../image/food/non panner.jpg',
-    price: '$$$$',
+      '../../image/food/rice_cheswan_noodles.jpg',
+    price: '100',
 
   },
+  {
+    id: 17,
+    name: 'Schezwan Chicken Rice/Noodles',
+    category: 'rice',
+    image:
+      '../../image/food/rice_cheswan_chicken_rice.jpg',
+    price: '120',
+
+  },
+  {
+    id: 9,
+    name: 'Mosambi/Sathukudi',
+    category: 'freshjuice',
+    image:
+      '../../image/food/juice_mosambi.jpg',
+    price: '60',
+  },
+  {
+    id: 10,
+    name: 'pomegranate',
+    category: 'freshjuice',
+    image:
+      '../../image/food/juice_pomegranate.jpg',
+    price: '60',
+  },
+  {
+    id: 18,
+    name: 'Grape',
+    category: 'freshjuice',
+    image:
+      '../../image/food/juice_grape.jpg',
+    price: '50',
+  },
+  {
+    id: 19,
+    name: 'Water Melon',
+    category: 'freshjuice',
+    image:
+      '../../image/food/juice_watermelon.jpg',
+    price: '40',
+  },
+  {
+    id: 20,
+    name: 'Lemon',
+    category: 'freshjuice',
+    image:
+      '../../image/food/juice_lemon.jpeg',
+    price: '20',
+  },
+  {
+    id: 21,
+    name: 'Lemon Soda',
+    category: 'freshjuice',
+    image:
+      '../../image/food/juice_lemon_soda.jpeg',
+    price: '30',
+  },
+  {
+    id: 22,
+    name: 'Rose Milk',
+    category: 'freshjuice',
+    image:
+      '../../image/food/juice_rosemilk.jpeg',
+    price: '30',
+  },
+  {
+    id: 23,
+    name: 'Badam',
+    category: 'freshjuice',
+    image:
+      '../../image/food/juice_badam.jpg',
+    price: '30',
+  },
+  {
+    id: 24,
+    name: 'Mojito',
+    category: 'freshjuice',
+    image:
+      '../../image/food/juice_Mojito.jpeg',
+    price: '50',
+  }
 ];
 
 export const categories = [

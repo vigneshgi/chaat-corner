@@ -1,0 +1,15 @@
+{
+  "name": "eggmatrix",
+  "version": "1.0.0",
+  "description": "Backend API for Egg Matrix",
+  "main": "index.js",
+  "scripts": {
+    "test": "run test"
+  },
+  "author": "Vignesh",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "mysql2": "^3.0.0"
+  }
+}

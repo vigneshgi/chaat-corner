@@ -1,22 +1,19 @@
-import React from 'react'
-import Card from './components/Card'
-import Category from './components/Category'
-import Food from './components/Food'
-import Hero from './components/Hero'
-import Navbar from './components/Navbar'
-import Qr from './components/Qr'
-
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import StaticPage from './components/staticPage'
+import EggMatrix from './components/eggMatrix';
+// import NotFound from './components/NotFound';
 
 const App = () => {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Qr />
-      <Card />
-      <Food />
-      <Category />
-    </>
+    <Router>
+    <Switch>
+      <Route exact path="/" component={StaticPage} />
+      <Route path="/eggmatrix" component={EggMatrix} />
+      {/* <Route component={NotFound} /> */}
+    </Switch>
+  </Router>
   )
 }
 

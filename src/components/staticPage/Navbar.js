@@ -9,20 +9,20 @@ const Navbar = () => {
                 <div className="cursor-pointer">
                     <h1 className='font-bold text-3xl sm:text-4xl lg:text-4xl '>BT Chaat Corner</h1>
                 </div>
+                {/* <div> */}
+                  {/* <button className='border border-white bg-orange-500 text-white mx-2 rounded-xl px-5 py-1  bottom-4 shadow-md'>Click here for Menu</button> */}
+                {/* </div> */}
                 <div className='flex items-center'>
                     {/* <div className="flex justify-center bg-gray-200 h-10 rounded-md sm:pl-2 sm:w-[400px] lg:w-[400px] items-center">
                         <input type="search" className='hidden sm:flex bg-transparent p-2 sm:w-full focus:outline-none text-black ' placeholder='search..' />
                         <FiSearch size={20} className="bg-black text-white p-[10px] h-10 rounded-md w-10 font-bold " />
                     </div> */}
                     <div className="flex items-center space-x-4 ml-4">
-                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-black">
+                        <a href="https://www.facebook.com/people/Btchaatcorner/100068272569646/" target="_blank" rel="noopener noreferrer" className="text-black">
                             <FaFacebook size={25} />
                         </a>
-                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-black">
+                        <a href="https://www.instagram.com/bt_chaatcorner/" target="_blank" rel="noopener noreferrer" className="text-black">
                             <FaInstagram size={25} />
-                        </a>
-                        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-black">
-                            <FaTwitter size={25} />
                         </a>
                     </div>
                     <div className="flex items-center ml-4">
